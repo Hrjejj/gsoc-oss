@@ -3,16 +3,12 @@
 int main(void) {
     int a, b;
 
-    printf("Welcom to the Calculator!\n");
-    // SOLUTION (Issue 4: typo in the welcome message)
-    // Problem:  "Welcom" is missing the final "e".
-    // Fix:      printf("Welcome to the Calculator!\n");
-    // Why:      printf prints the text exactly as written inside the quotes.
+    printf("Welcome to the Calculator!\n");
 
     printf("Enter two numbers: ");
     scanf("%d %d", &a, &b);
 
-    printf("The sum is: %d\n", a - b);
+    printf("The sum is: %d\n", a + b);
     // SOLUTION (Issue 5: the "sum" is wrong, it subtracts)
     // Problem:  a - b subtracts the numbers, but a sum needs addition.
     // Fix:      printf("The sum is: %d\n", a + b);
